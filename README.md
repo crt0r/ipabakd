@@ -1,6 +1,9 @@
 # ipabakd - Create FreeIPA backups every N hours
 *Why? That's just an assignment.*
 
+## Demo
+[![asciicast](https://asciinema.org/a/LW9iTRk5zn3AmwGzviq1181BV.svg)](https://asciinema.org/a/LW9iTRk5zn3AmwGzviq1181BV?speed=3)
+
 ## Usage
 ### Systemd Service
 ```bash
