@@ -2,6 +2,7 @@
 Description=A daemon for automatic freeipa backups
 
 [Service]
+User=root
 ExecStart=/usr/sbin/ipabakd.sh 4
 
 [Install]
