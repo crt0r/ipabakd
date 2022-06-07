@@ -1,0 +1,8 @@
+[Unit]
+Description=A daemon for automatic freeipa backups
+
+[Service]
+ExecStart=/usr/sbin/ipabakd.sh 4
+
+[Install]
+WantedBy=multi-user.target
