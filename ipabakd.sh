@@ -37,8 +37,7 @@ LOG_FILE="/var/log/$SCRIPT_NAME.log"
 
 function backup_with_log() {
     TMP_OPER="/tmp/$SCRIPT_NAME.tmpoper"
-    #ipa-backup --data --online &> cat | format_log
-    touch /test &> $TMP_OPER
+    ipa-backup --data --online &> $TMP_OPER
     format_log "$(cat $TMP_OPER)"
 }
 
