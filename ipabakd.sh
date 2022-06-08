@@ -46,7 +46,7 @@ function format_log() {
     TIMEDATE="$(date)"
     DELIM="-----[ $TIMEDATE ]-----"
     DELIM_LEN=${#DELIM}
-    DELIM_END="$(printf -- "-%.0s" $(seq 0 $DELIM_LEN))"
+    DELIM_END="$(printf -- "-%.0s" $(seq 1 $DELIM_LEN))"
     
     echo -e "\n\n$DELIM\n$LOG_BODY\n$DELIM_END\n\n" >> $LOG_FILE
 }
