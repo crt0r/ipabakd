@@ -27,9 +27,22 @@ ipabak-stop.sh
 *This script will find `ipabakd.sh` PID and kill it forcefully.*
 
 ## Installation
-- Copy `ipabakd.sh` to `/usr/sbin`
-- Copy `ipabakd-stop.sh` to `/usr/sbin`
-- Copy `ipabakd.service` to `/etc/systemd/system`
+`All operations below must be performed as a root user.`
+
+- Copy **ipabakd.sh** to **/usr/local/sbin**
+```
+cp ./ipabakd.sh /usr/local/sbin/
+```
+
+- *OPTIONAL* Copy **ipabakd-stop.sh** to **/usr/local/sbin**
+```
+cp ./ipabakd-stop.sh /usr/local/sbin/
+```
+
+- Copy **ipabakd.service** to **/etc/systemd/system**
+```
+cp ./ipabakd.service /etc/systemd/system 
+```
 
 ## LICENSE
 Licensed under the [MIT License](./LICENSE)
