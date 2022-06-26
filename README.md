@@ -2,7 +2,7 @@
 *Why? That's just an assignment.*
 
 ## Demo
-[![asciicast](https://asciinema.org/a/LW9iTRk5zn3AmwGzviq1181BV.svg)](https://asciinema.org/a/LW9iTRk5zn3AmwGzviq1181BV?speed=3)
+https://user-images.githubusercontent.com/56602996/175819646-d7a6224a-c43e-43d4-a628-be15a7535455.mp4
 
 ## Usage
 ### Systemd Service
